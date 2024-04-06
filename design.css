@@ -38,7 +38,7 @@ body{
     color:gray;
 }
 .AboutMe-text-section {
-    width: 500px;
+    width: 400px;
 }
 
 .AboutMe-section {
@@ -91,7 +91,7 @@ body{
     background-color:pink;
 }
 
-
+/* -------intro-section------ */
 @media only screen and (max-width: 620px) {
     
     .intro-section {
@@ -102,7 +102,7 @@ body{
         margin: 40px 20px;
     }
 }
-
+/* ---------About Me-section------- */
 @media only screen and (max-width: 620px) {
     
     .AboutMe-section{
@@ -110,10 +110,10 @@ body{
         flex-direction: column;
      }
      body {
-        margin: 50px 20px;
+        margin: 40px 20px;
     }
 }
-
+/* -------What I Do------ */
 @media only screen and (max-width: 620px) {
     
     .WhatIDo-section{
