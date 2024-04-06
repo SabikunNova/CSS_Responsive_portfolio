@@ -1,0 +1,144 @@
+/* ----body--- */
+body{
+    margin: 30px 100px;
+}
+.intro-text-section h1{
+    font-size: xx-large;
+    color:gray;
+}
+/* -----intro section----- */
+.intro-text-section li{
+    color:gray;
+}
+.intro-section{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 60px 0px;
+    padding: 20px 0px;
+    border-radius: 20px;
+    background-color: aliceblue;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition-duration:1s ;
+}
+.intro-section:hover {
+    background-color: rgb(233, 233, 215);
+}
+
+/* ----intro-image----- */
+.intro-image-section img {
+    width: 230px;
+    height: 340px;
+}
+/* ------------About me--------- */
+.AboutMe-text-section h1{
+    font-size:xx-large;
+}
+.AboutMe-text-section p{
+    color:gray;
+}
+.AboutMe-text-section {
+    width: 500px;
+}
+
+.AboutMe-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.AboutMe-image-section img {
+    width: 350px;
+    height: 350px;
+}
+.AboutMe-section{
+    background-color: lavender;
+    padding: 20px 0px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+    transition-duration: 1s;
+}
+.AboutMe-section:hover{
+    background-color: rgb(151, 190, 190);
+}
+/*-------- WhatIDo-section------- */
+.WhatIDo-section{
+    margin: 60px 0px;
+    background-color: gainsboro;
+    padding: 40px 12px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition-duration: 1s;
+}
+.WhatIDo-section:hover{
+    background-color: lavenderblush;
+}
+
+.WhatIDo-card-section{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.WhatIDo-card-section div{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 8px;
+    width: 240px;
+    height: 200px;
+    border-radius: 20px;
+    transition-duration: 1s;
+}
+.WhatIDo-card-section div:hover{
+    background-color:pink;
+}
+
+
+@media only screen and (max-width: 620px) {
+    
+    .intro-section {
+        display: flex;
+        flex-direction: column;
+     }
+     body {
+        margin: 40px 20px;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    
+    .AboutMe-section{
+        display: flex;
+        flex-direction: column;
+     }
+     body {
+        margin: 50px 20px;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    
+    .WhatIDo-section{
+        display: flex;
+        flex-direction: column;
+        margin: 10px 10px;
+     }
+     body {
+        margin: 40px 20px;
+    }
+}
+@media only screen and (max-width: 620px) {
+    
+    .WhatIDo-card-section{
+        display: flex;
+        flex-direction: column;
+        margin: 10px 10px;
+     }
+     body {
+        margin: 40px 20px;
+    }
+}
+
+
+
+
+
+  
